@@ -30,9 +30,11 @@ songs.forEach(song => {
 // Task 1: Use forEach to log each song's year
 // Format: "As It Was - 2022"
 
+songs.forEach((song) => console.log('$(song.title) - $(song.year)'))
 
 
 // Task 2: Use forEach to log songs with over 1 million plays
 // Only log if plays > 1000000
 // Format: "Anti-Hero has 2000000 plays"
 
+songs.forEach((song) => song.plays = 1000000)
